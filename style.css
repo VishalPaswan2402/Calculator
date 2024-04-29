@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(139, 174, 163);
+}
+.head{
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 38%;
+    color: rgb(4, 4, 142);
+}
+.head2{
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 41.5%;
+    color: rgb(0, 0, 100);
+}
+#calc{
+    height: 580px;
+    width: 385px;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 34.7%;
+    background-color: rgb(171, 165, 165);
+}
+.shadow{
+    box-shadow: 2px 3px 5px black;
+}
+#display{
+    height: 50px;
+    width: 335px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 23px;
+    border-radius: 10px;
+}
+#display p{
+    font-size: 2rem;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+#buttons{
+    height: 460px;
+    width: 335px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 23px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.keys{
+    height: 63px;
+    width: 60px;
+    border: 2px solid black;
+    margin: 10px;
+    /* transition: 0.5s; */
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgb(91, 91, 91);
+    cursor: pointer;
+}
+.enter{
+    width: 143px;
+}
+.enter p{
+    font-size: 2.8rem;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 4.5px;
+    margin-left: 11px;
+    color: rgb(236, 255, 66);
+}
+.keys:active{
+    box-shadow: 4px 4px 6px rgb(171, 165, 165);
+}
+.erase p{
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-top: 16.5px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(1, 255, 255);
+}
+.number{
+    font-size: 3rem;
+}
+#weight{
+    margin-top: 8px;
+    margin-left: 17px;
+}
+#weight1{
+    margin-top: 8px;
+    margin-left: 14px;
+}
+#weight2{
+    margin-top: 8px;
+    margin-left: 11px;
+}
+.operation{
+    font-size: 3rem;
+}
+#sign{
+    margin-top: 8px;
+    margin-left: 8px;
+    color: rgb(1, 255, 255);
+}
+#sign1{
+    margin-top: 8px;
+    margin-left: 12px;
+    color: rgb(1, 255, 255);
+}
+#dot{
+    font-size: 1.5rem;
+    margin-top: 18px;
+    margin-left: 17px;
+}
+#fact{
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.color{
+    color: rebeccapurple;
+}
+
+
